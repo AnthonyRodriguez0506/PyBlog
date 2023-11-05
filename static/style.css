@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+/* NAV BAR */
+
+h1{
+	font-size: 2.5rem;
+}
+ul li, p{
+	font-size: 2rem;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.main-head{
+	background: #131c27;
+	color: white;
+}
+nav{
+	min-height: 10vh;
+	display: flex;
+	width: 80%;
+	margin: auto;
+	padding: 2rem;
+	align-items: center;
+}
+
+nav ul{
+	display: flex;
+	flex: 1 1 20rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+#logo{
+	flex: 3 1 50rem;
+}
+
+/* SECTION BLOG */
+section{
+	margin: 5vh auto;
+	width: 50%;
+	height: 17vh;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.post-title{
+	font-size: 2.5rem;
+	margin: 10px auto 0px;
+	padding: 10px;
+
+}
+.date{
+	font-size: 1.6rem;
+	padding-top: 0;
+	color: grey;
+}
+
+p{
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+
+}
+
+.delete-button{
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+/* FORM */
+
+
+/* Start form */
+
+
+h2{
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 5vh;
+}
+
+form{
+	margin: 5vh auto;
+	width: 320px;
+	color: steelblue;
+
+}
+
+input{
+	padding: 10px;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+
+.login-form input{
+	display: block;
+	margin-top: 25px;
+	width: 100%;
+	border: 2px solid #131c27;
+	border-radius: 5px;
+}
+.login-form input[type="submit"]{
+
+	border: none;
+	background-color: #131c27;
+	color: white;
+	font-size: 1.8rem;
+}
+
+li{
+
+	margin-top: 0;
+	margin-left: 15px;
+	color: red;
+}
+
+textarea{
+	display: block;
+	margin-top: 25px;
+	border: 2px solid #131c27;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 1.8rem;
+	resize: none;
+	padding: 6px;
+}
+
+button {
+    background-color: red;
+	border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+	transition: .5s;
+}
+
+button:hover {
+    background-color: darkred;
+}
